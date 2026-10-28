@@ -1,0 +1,13 @@
+.git
+.venv
+.venv-1
+bazilo/.venv
+bazilo/bazilo-*
+__pycache__
+*.pyc
+*.pdf
+*.midi
+*.wav
+*.mp3
+documentacion
+FO-ACA-11 Manual de Prácticas 2 - Copia - Copia.docx

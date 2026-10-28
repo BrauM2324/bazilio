@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f1e9">
+  <title>Bazilo | Generador de secuencias</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main class="workspace">
+    <header class="page-heading">
+      <a class="brand" href="/" aria-label="Bazilo">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>BAZILO</span>
+      </a>
+      <span class="local-tag"><span></span> ESTUDIO LOCAL</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">COMPOSICIÓN DIGITAL</p>
+      <em>Secuencia Musical</em></h1>
+    </section>
+
+    <form id="composer-form">
+      <div class="form-topline">
+        <label for="notes"><span class="field-index">01</span> SECUENCIA BAZILIO</label>
+        <span class="format-hint">NOTAS ENTRE LLAVES</span>
+      </div>
+      <textarea id="notes" name="notes" rows="4" maxlength="4096" spellcheck="false" autocomplete="off" placeholder=" Secuencia (A - G) " required></textarea>
+      <div class="form-bottomline">
+        <span>Ejemplo: <code>(:) {C4 D4 E4}</code></span>
+        <span class="note-mark" aria-hidden="true">♫</span>
+      </div>
+      <div class="action-area">
+        <button class="generate-button" id="generate-button" type="submit"><span class="button-label">Generar</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        <div class="file-list" id="file-list" aria-live="polite"></div>
+        <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+      </div>
+    </form>
+
+    <footer class="page-footer"><span>LY · PDF · MIDI · WAV · MP3</span><span>PROCESADO EN ESTE EQUIPO</span></footer>
+  </main>
+</body>
+</html>

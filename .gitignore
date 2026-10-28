@@ -1,0 +1,43 @@
+# Entorno virtual de Python
+.venv/
+.venv-1/
+venv/
+env/
+ENV/
+
+# Archivos de caché y compilación
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Herramientas y cachés de desarrollo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre
+
+# Configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de salida del proyecto (opcional)
+# Si quieres conservar ejemplos generados, comenta estas líneas.
+# bazilo/*/secuencia.*
+# programas/*.wav
+# programas/*.mp3
+# programas/*.mid
+# programas/*.midi
+# programas/*.pdf
