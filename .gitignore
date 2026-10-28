@@ -33,11 +33,13 @@ Thumbs.db
 *.tmp
 *.bak
 
-# Archivos de salida del proyecto (opcional)
-# Si quieres conservar ejemplos generados, comenta estas líneas.
-# bazilo/*/secuencia.*
-# programas/*.wav
-# programas/*.mp3
-# programas/*.mid
-# programas/*.midi
-# programas/*.pdf
+# Archivos de salida generados por LilyPond y herramientas de audio
+bazilo/*/secuencia.midi
+bazilo/*/secuencia.mp3
+bazilo/*/secuencia.pdf
+bazilo/*/secuencia.wav
+programas/*.wav
+programas/*.mp3
+programas/*.mid
+programas/*.midi
+programas/*.pdf
