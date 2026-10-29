@@ -34,12 +34,32 @@ Thumbs.db
 *.bak
 
 # Archivos de salida generados por LilyPond y herramientas de audio
+bazilo/bazilo-*/
 bazilo/*/secuencia.midi
 bazilo/*/secuencia.mp3
 bazilo/*/secuencia.pdf
+bazilo/*/secuencia.ly
 bazilo/*/secuencia.wav
 programas/*.wav
 programas/*.mp3
 programas/*.mid
 programas/*.midi
 programas/*.pdf
+
+# Archivos de trabajo y materiales no necesarios para el runtime
+Bazilio.g4
+Bazilio.interp
+Bazilio.tokens
+BazilioLexer.interp
+BazilioLexer.tokens
+BazilioListener.py
+bazilio_etapa[2-6].py
+bazilio_final.py
+himno.py
+Practica_Guiada_Interprete_Bazilio.txt
+ejecucion.md
+FO-ACA-11*.docx
+documentacion/
+programas/hanoi/
+programas/pruevas/
+programas/himno.*
